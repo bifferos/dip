@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "iPlayer Downloader",
+  "description": "Helper for downloading iplayer programmes by PID",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Download this page using get_iplayer",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://localhost/", "tabs"
+  ]
+}
